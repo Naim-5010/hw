@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>login form</title>
+    <style>
+        .containar {
+            width: 600px;
+            height: 500px;
+            background-color: azure;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+        }
+
+        input {
+            display: block;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            background: rgb(231, 214, 193);
+            font-family: verdana;
+            padding-right: 109px;
+            color: rgb(0, 0, 0);
+        }
+
+        h2 {
+            font-family: arial black;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        #pic {
+            padding-right: 00px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="containar">
+        <h2>LOGIN FORM</h2>
+
+        <label for="name">Name </label>
+        <input type="text" name="name" placeholder="Enter Your Name ">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter Your Email">
+
+        <label for="email">Password</label>
+        <input type="password" name="password" placeholder="Enter Your Password">
+
+        <label for="profile_pic">Profile Picture</label>
+        <input type="file" name="profile_pic" id="pic">
+
+        <input type="submit" value="Submit">
+
+    </div>
+
+</body>
+
+</html>
